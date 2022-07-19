@@ -8,6 +8,8 @@ body {
     height: 730px;
     background: #1F2937;
     align-content: center;
+    display: block;
+    margin: auto;
 }
 
 #header-div {
