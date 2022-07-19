@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background: linear-gradient(#DDD6FE, black);
+}
+
+#main-div {
+    width: 550px;
+    height: 730px;
+    background: #1F2937;
+    align-content: center;
+}
+
+#header-div {
+    background: #6943FF;
+    width: 550px;
+    height: 285px;
+}
+
+#title-div {
+    font-family: 'Inter', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+    margin: auto;
+    color: #FFFFFF;
+    display: block;
+    line-height: 38px;
+    text-align: center;
+    padding: 30px 50px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#value-input {
+    display: block;
+    width: 117px;
+    height: 83px;
+    margin: auto;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background: transparent;
+    font-family: 'Inter', sans-serif;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+#convert-btn {
+    display: block;
+    margin: 25px 217px 34px 217px;
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+#parent-div {
+    display: block;
+    width:100%;
+    height:auto;
+}
+
+#top-div, #mid-div, #bot-div {
+    display: block;
+    width: 500px;
+    height: 110px;
+    background: #273549;
+    margin: 0 auto;
+}
+
+.spacer-div {
+    display:block;
+    height:24px;
+    width:100%;
+    margin: 0 auto;
+}
+
+#top-div {
+    margin-top: 36px;
+}
+
+#length-header-div, #volume-header-div, #mass-header-div {
+    color: #CCC1FF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 31px;
+    padding-bottom: 9px;    
+}
+
+#length-div, #volume-div, #mass-div {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 18px;
+    color: #FFFFFF;
+}
+
+#bot-div {
+    margin-bottom: 36px;
+}
